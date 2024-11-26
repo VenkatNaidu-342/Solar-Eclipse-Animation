@@ -17,7 +17,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: linear-gradient(30deg, #1c345e, #223b6a, #2d4c8f);
+    /* background-image: linear-gradient(30deg, #1c345e, #223b6a, #2d4c8f); */
+    background-image: linear-gradient(30deg, #182C51, #09101e);
     overflow: hidden;
     position: relative;
 }
@@ -95,8 +96,8 @@ body::after {
     }
     50% {
         transform: translate(0px, 0px) scale(1.02);
-        box-shadow: 0 0 20px #f9f3f2, 0 0 100px 12px #f3c7c0;
-        background-color: #e7d2ce;
+        box-shadow: 0 0 20px #f9f3f2, 0 0 100px 12px #C7938B;
+        background-color: #efdbd8;
     }
     100% {
         transform: translate(30px, -30px) scale(0.9);
